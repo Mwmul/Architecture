@@ -1,0 +1,447 @@
+*
+	margin: 0
+	font-family: helvetica
+	box-sizing: border-box
+	transition: 200ms
+	a
+		color: inherit
+		text-decoration: none
+	ul
+		padding: 0
+		list-style: none
+
+body
+	background: #121315
+	header
+		width: 100%
+		background: #121315
+		color: #F4F4F4
+		overflow: hidden
+		nav
+			width: 100%
+			overflow: hidden
+			float: left
+			form
+				float: left
+				padding-top: 30px
+				border-bottom: solid 1px
+				padding-bottom: 2px
+				color: #5B5B5D
+				input
+					background: none
+					border: none
+					padding: 10px
+					padding-right: 30px
+				i
+					margin-right: 5px
+			ul
+				float: right
+				li
+					float: left
+					padding-top: 40px
+					padding-bottom: 40px
+					padding-left: 20px
+					font-size: 14px
+			.languages
+				float: right
+				color: #5B5B5D
+				padding: 40px
+				i
+					font-weight: 400
+					padding-left: 10px
+			.logo
+				float: left
+				padding: 40px
+		.intro
+			overflow: hidden
+			width: 100%
+			.contens
+				background: url('http://i.imgur.com/D0szq4y.png')
+				background-position: center
+				background-size: cover
+				height: 100vh
+				max-height: 560px
+				padding: 50px
+				display: flex
+				justify-content: left
+				border-right: solid 30px #121315
+				.inner
+					align-self: flex-end
+					h1
+						font-family: serif
+						font-weight: 400
+						letter-spacing: 3px
+						font-size: 40px
+					p
+						margin-top: 10px
+						opacity: 0.8
+					a
+						margin-top: 20px
+						opacity: 0.8
+						display: inline-block
+						&:hover
+							opacity: 1
+						&:hover > i
+							margin-left: 10px
+						i
+							margin-left: 5px
+			.left-bar
+				padding: 40px
+				width: auto
+				float: left
+				height: 100vh
+				max-height: 550px
+				display: flex
+				align-items: center
+				justify-content: center
+				.inner
+					align-self: flex-end
+					a
+						display: block
+						border-radius: 100%
+						border: solid 1px
+						font-weight: bold
+						margin-top: 10px
+						height: 30px
+						width: 30px
+						text-align: center
+						line-height: 30px
+						font-size: 12px
+						&:hover
+							background: #DF3939
+							border-color: #DF3939
+	.wrapper
+		display: block
+		width: 100%
+		max-width: 1400px
+		margin: auto
+		color: #F4F4F4
+		overflow: hidden
+		background-color: white
+		.one
+			width: 100%
+			padding: 80px
+			padding-top: 50px
+			padding-bottom: 50px
+			color: rgba(0,0,0,0.9)
+			overflow: hidden
+			.inner
+				width: 100%
+				max-width: 1000px
+				clear: both
+				padding-top: 40px
+				font-size: 15px
+				margin: auto
+				p
+					opacity: 0.9
+					margin-top: 20px
+				h1
+					font-family: sans
+					opacity: 0.8
+					font-weight: 400
+					font-size: 30px
+					padding-left: 40px
+					padding-right: 40px
+					border-left: solid 4px rgba(0,0,0,0.5)
+				.left
+					width: 50%
+					float: left
+					padding: 40px
+				.right
+					width: 50%
+					float: left
+					padding: 40px
+		.two
+			width: 100%
+			color: black
+			overflow: hidden
+			.gallery
+				overflow: hidden
+				width: 55%
+				float: left
+				#slider
+					overflow: hidden
+					width: 100%
+					background: url('http://i.imgur.com/zPpacjI.png')
+					background-size: cover
+					background-position: 90%
+					background-repeat: no-repeat
+					padding: 20px
+					padding-top: 40px
+					padding-bottom: 40px
+					padding-right: 0
+					figure 
+						position: relative
+						width: 500%
+						margin: 0
+						left: 0
+						text-align: left
+						font-size: 0
+						animation: 30s slidy infinite
+						img
+							width: 20%
+							float: left
+							padding-left: 5px
+							padding-right: 5px
+							
+			.right-text
+				width: 45%
+				float: left
+				height: 100vh
+				padding-left: 30px
+				max-height: 500px
+				.inner
+					padding-bottom: 70px
+					width: 100%
+					max-width: 350px
+					position: relative
+					top: 50%
+					transform: translate(-0%,-50%)
+					h1
+						font-family: sans
+						opacity: 0.6
+						margin-bottom: 20px
+					a
+						display: inline-block
+						padding: 15px 40px 15px 40px
+						margin-top: 30px
+						border: solid 1px
+						&:hover
+							background: rgba(0,0,0,0.05)
+		.three
+			color: black
+			width: 100%
+			margin-bottom: 100px
+			overflow: hidden
+			.left
+				width: 50%
+				float: left
+				height: 100vh
+				max-height: 450px
+				.inner
+					position: relative
+					top: 50%
+					left: 50%
+					transform: translate(-50%,-50%)
+					padding: 100px
+					h1
+						font-family: sans
+						font-size: 35px
+						opacity: 0.7
+						margin-bottom: 25px
+						margin-top: 40px
+					p
+						margin-bottom: 20px
+					a
+						display: inline-block
+						i
+							padding-left: 12px
+							padding-right: 10px
+							padding-top: 5px
+							padding-bottom: 5px
+							border: solid 2px rgba(0,0,0,0.3)
+							margin-right: 10px
+							border-radius: 100%
+			.right
+				width: 50%
+				float: left
+				img
+					float: right
+					width: 100%
+					box-shadow: -9px 10px 43px 0px rgba(0,0,0,0.4)
+					margin-bottom: 50px
+					margin-top: 50px
+		.four
+			width: 100%
+			overflow: hidden
+			margin: auto
+			color: black
+			.vid
+				margin: auto
+				width: 100%
+				background: url('https://i.gyazo.com/2293cf307875fedda80a933257b78867.png')
+				background-size: cover
+				background-position: bottom
+				background-repeat: no-repeat
+				padding: 70px
+				padding-bottom: 0px
+				margin-bottom: 50px
+				img
+					width: 100%
+					box-shadow: 0px 5px 43px 0px rgba(0,0,0,0.4)
+			.text
+				width: 100%
+				padding: 40px
+				.text-half
+					float: left
+					width: 50%
+					opacity: 0.8
+					padding: 50px
+					padding-top: 0px
+					h1
+						font-family: sans
+						font-size: 40px
+						margin-bottom: 30px
+					p
+						margin-bottom: 30px
+						font-size: 17px
+		.offer
+			width: 100%
+			color: rgba(255,255,255,0.9)
+			background: black
+			overflow: hiddenz              
+			h1
+				font-weight: 400
+				float: left
+				padding: 30px
+				font-size: 30px
+			a
+				border: solid 1px
+				padding: 10px 30px
+				float: right
+				margin-top: 30px
+				margin-right: 35px
+				&:hover
+					background: rgba(255,255,255,0.1)
+	footer
+		color: white
+		width: 100%
+		overflow: hidden
+		.inner
+			width: 100%
+			max-width: 1000px
+			margin: auto
+			overflow: hidden
+			padding-top: 50px
+			padding-bottom: 50px
+			nav
+				width: 100%
+				overflow: hidden
+				.title-address
+					width: auto
+					float: left
+					h1
+						font-family: sans
+						opacity: 0.8
+					p
+						margin-top: 10px
+						opacity: 0.6
+				ul
+					float: right
+					opacity: 0.87
+					li
+						float: left
+						padding: 10px
+						padding-top: 15px
+			.bottom
+				width: 100%
+				margin-top: 20px
+				margin-bottom: 20px
+				overflow: hidden
+				ul
+					float: left
+					list-style: none
+					li
+						float: left
+						height: 30px
+						width: 30px
+						text-align: center
+						margin-right: 10px
+						line-height: 30px
+						border: solid 1px
+						border-radius: 100%
+						&:hover
+							background: #E73B3C
+							border-color: #E73B3C
+				#language
+					opacity: 0.6
+					float: right
+			#cr
+				opacity: 0.4
+
+@keyframes slidy 
+	0% 
+		left: 0%
+	20%  
+		left: 0%
+	25% 
+		left: -100%
+	45%
+		left: -100%
+	50%
+		left: -200%
+	70%
+		left: -200%
+	75%
+		left: -300%
+	95%
+		left: -300%
+	100%
+		left: -400%
+
+@media only screen and (max-width: 920px)
+	body
+		.wrapper
+			.one
+				padding: 10px
+				.inner
+					h1
+						margin-bottom: 20px
+					.left, .right
+						
+						padding: 20px
+						float: none
+						width: 100%
+			.two
+				display: flex
+				flex-direction: column
+				.gallery
+					width: 100%
+				.right-text
+					width: 100%
+					.inner
+						padding: 0
+			.three
+				display: flex
+				flex-direction: column-reverse
+				.right
+					align-self: flex-end
+					width: 70%
+					img
+						margin: 0
+				.left
+					width: 100%
+					.inner
+						padding: 20px
+			.four
+				.vid
+					padding: 30px
+					img
+						position: relative
+						top: 30px
+				.text
+					display: flex
+					flex-direction: column
+					padding: 0
+					.text-half
+						width: 100%
+						padding: 20px
+		header
+			nav
+				display: flex
+				form
+					display: none
+				.languages
+					display: none
+				ul
+					display: flex
+					flex-direction: column
+					width: 100%
+					a
+						width: 100%
+						display: block
+					li
+						padding: 15px
+						display: block
+						text-align: center
+						width: 100%
